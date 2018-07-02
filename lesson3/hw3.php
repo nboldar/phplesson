@@ -134,7 +134,7 @@ function trans(string $str)
             array_push($newStrArray, $val);
         }
         foreach ($transliteration as $key => $value) {
-            if (mb_substr($val, 0) === mb_substr($key, 0)) {
+            if ($val === $key) {
                 array_push($newStrArray, $value);
 
             }
