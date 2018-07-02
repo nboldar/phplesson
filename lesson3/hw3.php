@@ -25,14 +25,21 @@ $val = 0;
 do {
     if ($val === 0) {
         echo "$val-это ноль<br>";
+
     } elseif (!($val & 1)) {
         echo "$val-четное число<br>";
+
     } else {
         echo "$val-нечетное число<br>";
     }
     ++$val;
 } while ($val <= 10);
 echo "<hr>";
+/*
+ * задание №3 и №8
+ *
+ *
+ * */
 $cities = [
     "Адыгея" => ["Адыгейск", "Майкоп"],
     "Алтайский край" => ["Яровое", "Славгород", "Горно-Алтайск", "Алейск", "Барнаул", "Белокуриха", "Бийск", "Горняк",
@@ -54,6 +61,25 @@ $cities = [
         "Петушки", "Муром", "Меленки", "Лакинск", "Курлово", "Костерёво", "Кольчугино", "Ковров", "Киржач",
         "Карабаново", "Камешково", "Гусь-Хрустальный", "Гороховец", "Вязники", "Владимир", "Александров",],
 ];
+function cityOnScreen($array, $liter)
+{
+    foreach ($array as $key => $value) {
+        echo "$key:<br>";
+        for ($i = 0; $i <= count($value); $i++) {
+            if (mb_substr($value[$i], 0, 1) === $liter) {
+                echo "$value[$i], ";
+            }
+        }
+        echo "<br>";
+        unset($value);
+        unset($key);
+    }
+}
+
+cityOnScreen($cities, "К");
+echo "<br><hr>";
+//----------------------------------------------------------------------------------------
+
 $transliteration = [
     "а" => "a",
     "б" => "b",
@@ -90,28 +116,27 @@ $transliteration = [
     "я" => "ya",
 ];
 /*
- * Задание №4 и №5 и видимо задание №9
+ * Задание №4  и видимо задание №9
  *
  * */
 function trans(string $str)
 {
     global $transliteration;
-    $str=mb_strtolower($str);
+    $str = mb_strtolower($str);
     $strArray = [];
-    for ($i = 0; $i <= mb_strlen($str); $i++) {
+    $strLen=mb_strlen($str);
+    for ($i = 0; $i <= $strLen; $i++) {
         array_push($strArray, mb_substr($str, $i, 1));
     }
     $newStrArray = [];
     foreach ($strArray as $item => $val) {
-        if (mb_ereg_match("\s", mb_substr($val, 0))) {
-            array_push($newStrArray, "_");
-        }
         if (mb_ereg_match("\W", mb_substr($val, 0))) {
             array_push($newStrArray, $val);
         }
         foreach ($transliteration as $key => $value) {
-            if (mb_substr($val, 0) == mb_substr($key, 0)) {
+            if (mb_substr($val, 0) === mb_substr($key, 0)) {
                 array_push($newStrArray, $value);
+
             }
         }
     }
@@ -123,26 +148,25 @@ function trans(string $str)
     echo "новая строка = $newStr<br>";
     return $newStr;
 }
+/*
+ * Задание №5
+ *
+ * */
+function spaceReplace($string)
+{
+    $result=strtr($string," ", "_");
+    return $result;
+}
 
-trans('не знАю даже, что лучШе (я в это время был дома)-быть или! не быть?');
+
+
+echo spaceReplace(trans('не знАю даже, что лучШе (я в это время был дома)-быть или! не быть?'));
+
+echo "<br><hr>";
 /*
  * задание №7
  * */
-for ($y = 0; $y < 10; print_r($y++)) {}
-
-function cityOnScreen($array,$liter)
-{
-    foreach ($array as $key => $value) {
-        echo "$key:<br>";
-        for ($i = 0; $i <= count($value); $i++) {
-            if (mb_substr($value[$i], 0, 1) === $liter) {
-                echo "$value[$i], ";
-            }
-        }
-        echo "<br>";
-        unset($value);
-        unset($key);
-    }
+for ($y = 0; $y < 10; print_r($y++)) {
 }
+echo "<br><hr>";
 
-cityOnScreen($cities,"К");
