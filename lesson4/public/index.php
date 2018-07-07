@@ -11,9 +11,7 @@ require __DIR__ . '/../config/config.php';
 //echo ROOT_DIR."<br>";
 require ENGINE_DIR . "render.php";
 require ENGINE_DIR . "funcImgResize.php";
-//var_dump(img_resize($src, $dest, $width, $height));
-//var_dump(ENGINE_DIR);
-//var_dump(scandir(ROOT_DIR . '/img/min/'));
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     getNextImg($_FILES['file']);
 }
@@ -36,14 +34,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 <div>
-    <!--    <a href="http://img.loc/img/max/1.jpg" class="img" target="_blank">-->
-    <!--    <img src="./img/min/1.min.jpg" alt="image"></a>-->
-    <!--    <a href="http://img.loc/img/max/2.jpg" class="img" target="_blank">-->
-    <!--        <img src="./img/min/2.min.jpg" alt="image"></a>-->
-    <!--    <a href="http://img.loc/img/max/3.jpg" class="img" target="_blank">-->
-    <!--        <img src="./img/min/3.min.jpg" alt="image"></a>-->
-    <!--    <a href="http://img.loc/img/max/4.jpg" class="img" target="_blank">-->
-    <!--        <img src="./img/min/4.min.jpg" alt="image"></a>-->
     <?php renderImg(); ?>
 </div>
 <form action="" enctype="multipart/form-data" method="post">

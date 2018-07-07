@@ -39,14 +39,10 @@ function getNextImg($img)
     if (isset($img)) {
         if ($img['type'] <> 'image/jpeg') {
             echo "Только картинки с расширением .jpg";
-            unlink($_FILES['name']);
-//            echo "<script>setTimeout(window.location.href='index.php',5000)</script>";
             return;
         }
         if ($img['size'] > 100000) {
             echo "превышен размер загружаемого файла";
-            unlink($_FILES['name']);
-//            echo "<script>setTimeout(window.location.href='index.php',5000)</script>";
             return;
         }
         $path = UPLOADS_DIR . setBigImgName(nextImgNumber());
@@ -58,6 +54,4 @@ function getNextImg($img)
     }
 
     echo "<script>window.location.href='index.php'</script>";
-
-
 }
