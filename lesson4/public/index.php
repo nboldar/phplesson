@@ -8,7 +8,6 @@
  * // */
 header('Content-type: text/html; charset=utf-8');
 require __DIR__ . '/../config/config.php';
-//echo ROOT_DIR."<br>";
 require ENGINE_DIR . "render.php";
 require ENGINE_DIR . "funcImgResize.php";
 
