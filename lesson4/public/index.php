@@ -8,12 +8,12 @@
  * // */
 header('Content-type: text/html; charset=utf-8');
 require __DIR__ . '/../config/config.php';
-require ENGINE_DIR . "render.php";
-require ENGINE_DIR . "funcImgResize.php";
-
+include ENGINE_DIR . "render.php";
+include ENGINE_DIR . "funcImgResize.php";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    getNextImg($_FILES['file']);
+   uploadImg($_FILES['file']);
 }
+
 ?>
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
@@ -37,7 +37,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </div>
 <form action="" enctype="multipart/form-data" method="post">
     <input type="file" name="file">
-    <input type="submit" value="Upload">
+    <input type="submit" name="upload" value="Upload">
+</form>
+<form action="./photo.php"  method="GET" target="_blank">
+    <input type="number" name="img-id" placeholder="введите id">
+    <input type="submit" name="submit_id" value="запросить картинку с этим id">
 </form>
 </body>
 </html>
