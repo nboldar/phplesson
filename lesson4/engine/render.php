@@ -17,24 +17,49 @@ function renderImg()
         echo "<a href='#' class='img' ><img src='$minImgUrl' alt='image'></a>";
     }
 }
+function trans($str)
+{
+    $transliteration = [" "=>"_","а" => "a", "б" => "b", "в" => "v", "г" => "g", "д" => "d", "е" => "e", "ё" => "e", "ж" => "zh",
+        "з" => "z", "и" => "i", "й" => "y", "к" => "k", "л" => "l", "м" => "m", "н" => "n", "о" => "o", "п" => "p",
+        "р" => "r", "с" => "s", "т" => "t", "у" => "u", "ф" => "f", "х" => "kh", "ц" => "ts", "ч" => "ch", "ш" => "sh",
+        "щ" => "sch", "ъ" => "", "ы" => "i", "ь" => "", "э" => "e", "ю" => "yu", "я" => "ya"];
 
+    $str = mb_strtolower($str);
+    $strArray = [];
+    $strLen=mb_strlen($str);
+    for ($i = 0; $i <= $strLen; $i++) {
+        array_push($strArray, mb_substr($str, $i, 1));
+    }
+    $newStrArray = [];
+    foreach ($strArray as $item => $val) {
+        if (mb_ereg_match("\W", mb_substr($val, 0))) {
+            array_push($newStrArray, $val);
+        }
+        if (mb_ereg_match("[a-z]", mb_substr($val, 0))) {
+            array_push($newStrArray, $val);
+        }
+        foreach ($transliteration as $key => $value) {
+            if ($val === $key) {
+                array_push($newStrArray, $value);
+            }
+        }
+    }
+
+    $newStr = implode($newStrArray);
+    return $newStr;
+}
 function uploadImg($img)
 {
     if (isset($img)) {
-        if ($img['type'] <> 'image/jpeg') {
-            echo "Только картинки с расширением .jpg";
-            return;
-        }
-        if ($img['size'] > 100000) {
-            echo "превышен размер загружаемого файла";
-            return;
-        }
-        $path = UPLOADS_DIR . $img['name'];
-        $relativeMaxPath = RELATIVE_MAXIMG_DIR . $img['name'];
-        $relativeMinPath = RELATIVE_MINIMG_DIR . $img['name'];
-        $name = $img['name'];
+
+        $name = trans($img['name']);
+        var_dump($name);
+        $path = UPLOADS_DIR . $name;
+        $relativeMaxPath = RELATIVE_MAXIMG_DIR . $name;
+        $relativeMinPath = RELATIVE_MINIMG_DIR . $name;
         $size_max = $img['size'];
-        $minImgPath = ROOT_DIR . "img/min/" . $img['name'];
+        $minImgPath = ROOT_DIR . "img/min/" . $name;
+
         move_uploaded_file($img['tmp_name'], $path);
         img_resize($path, $minImgPath, 100, 70);
         $size_min = filesize($minImgPath);
@@ -42,8 +67,5 @@ function uploadImg($img)
         $connectSQL = mysqli_connect("127.0.0.1", "root", "", "lesson5", "3307");
         $requestResult = mysqli_query($connectSQL, $query);
         mysqli_close($connectSQL);
-
     }
-
-    echo "<script>window.location.href='index.php'</script>";
 }

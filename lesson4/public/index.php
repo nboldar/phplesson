@@ -11,7 +11,17 @@ require __DIR__ . '/../config/config.php';
 include ENGINE_DIR . "render.php";
 include ENGINE_DIR . "funcImgResize.php";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-   uploadImg($_FILES['file']);
+    $img=$_FILES['file'];
+
+    if ($img['type'] <> 'image/jpeg') {
+        echo "Только картинки с расширением .jpg";
+    }elseif ($img['size'] > 100000){
+        echo "превышен размер загружаемого файла";
+    }else{
+        uploadImg($img);
+        echo "<script>window.location.href='index.php'</script>";
+        var_dump($_FILES['file']['name']);
+    }
 }
 
 ?>
