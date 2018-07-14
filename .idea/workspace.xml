@@ -2,10 +2,263 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4799e4dd-2be1-49f2-ac70-52cd81cd8e46" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson3/hw3.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/hw3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/engine/render.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/engine/render.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/public/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/public/photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/calc/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/calc/engine/count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/calc/engine/render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/calc/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/calc/templates/calc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/config/db_access.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/engine/count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/engine/render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/arrivals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/feedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/product_card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/single_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/fonts/lato-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/fonts/lato-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/fonts/lato-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/fonts/lato-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/Rectangle 16 copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/Rectangle 5 copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/accesories_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/background-footer-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/background-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/background-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/brand-logo/brand_logo_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/brand-logo/brand_logo_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/brand-logo/brand_logo_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/brand-logo/brand_logo_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/BRAND.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/Live_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/add_to_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/add_to_cart_copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/add_to_cart_copy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/cart_active_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/cart_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/fav.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/forma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/forma_croun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/forma_track.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/mail_ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/main_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/red_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/sprite-socail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/icon/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/index-main-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/layer_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/layer_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/layer_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/layer_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/1.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/10.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/11.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/12.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/13.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/14.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/15.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/16.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/17.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/18.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/2.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/3.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/4.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/5.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/6.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/7.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/8.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/mini/9.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/product-card-img/regular/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/shopping-cart-empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/single_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/slider_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/slider_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/slider_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/slider_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/img/slider/slider_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/Basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/Product_class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/all_comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/feedback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/js/submenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/vendor/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/vendor/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/vendor/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/public/vendor/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/templates/comment_temp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/comments/templates/feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/config/db_access.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/engine/getProductData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/engine/render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/engine/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/arrivals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/product_card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/single_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/fonts/lato-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/fonts/lato-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/fonts/lato-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/fonts/lato-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/Rectangle 16 copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/Rectangle 5 copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/accesories_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/background-footer-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/background-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/background-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/brand-logo/brand_logo_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/brand-logo/brand_logo_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/brand-logo/brand_logo_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/brand-logo/brand_logo_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/BRAND.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/Live_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/add_to_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/add_to_cart_copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/add_to_cart_copy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/cart_active_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/cart_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/fav.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/forma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/forma_croun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/forma_track.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/mail_ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/main_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/red_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/sprite-socail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/icon/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/index-main-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/layer_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/layer_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/layer_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/layer_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/1.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/10.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/11.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/12.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/13.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/14.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/15.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/16.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/17.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/18.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/2.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/3.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/4.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/5.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/6.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/7.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/8.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/mini/9.min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/shopping-cart-empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/single_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/slider_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/slider_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/slider_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/slider_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/img/slider/slider_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/js/Basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/js/Product_class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/js/submenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/vendor/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/vendor/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/vendor/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/public/vendor/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/templates/calc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/templates/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/templates/product_card.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/project/templates/single_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f451795-92e8-4cdd-a35a-7f2553466645.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f451795-92e8-4cdd-a35a-7f2553466645.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +300,7 @@
         <item name="lesson5@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="lesson5: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="image: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="comments: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -57,70 +310,90 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson4/public/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
-                  <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="photo.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson4/public/photo.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="render.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson4/engine/render.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="hw3.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson3/hw3.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="91" column="40" lean-forward="true" selection-start-line="87" selection-end-line="114" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson4/config/config.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="image" pinned="false" current-in-tab="true">
-            <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/image">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment_temp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/templates/comment_temp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_access.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/config/db_access.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="feedback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/public/js/feedback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="22" column="78" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/public/comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/config/config.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson4/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="render.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson4/engine/render.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-253">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson6/comments/templates/feedback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="155" column="33" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,6 +407,7 @@
       <find>extension</find>
       <find>openssl</find>
       <find>C:\php</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,6 +433,28 @@
         <option value="$PROJECT_DIR$/lesson4/public/index.php" />
         <option value="$PROJECT_DIR$/lesson3/hw3.php" />
         <option value="$PROJECT_DIR$/lesson4/engine/render.php" />
+        <option value="$PROJECT_DIR$/lesson6/calc/engine/render.php" />
+        <option value="$PROJECT_DIR$/lesson6/calc/config/config.php" />
+        <option value="$PROJECT_DIR$/lesson6/calc/templates/calc.php" />
+        <option value="$PROJECT_DIR$/lesson6/calc/public/index.php" />
+        <option value="$PROJECT_DIR$/lesson6/calc/engine/count.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/public/js/product.js" />
+        <option value="$PROJECT_DIR$/lesson6/project/config/db_access.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/config/db.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/public/js/main.js" />
+        <option value="$PROJECT_DIR$/lesson6/project/templates/product_card.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/public/index.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/engine/getProductData.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/templates/single_page.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/templates/product.php" />
+        <option value="$PROJECT_DIR$/lesson6/project/public/single.php" />
+        <option value="$PROJECT_DIR$/lesson6/comments/public/js/main.js" />
+        <option value="$PROJECT_DIR$/lesson6/comments/public/my.php" />
+        <option value="$PROJECT_DIR$/lesson6/comments/public/js/feedback.js" />
+        <option value="$PROJECT_DIR$/lesson6/comments/templates/feedback.php" />
+        <option value="$PROJECT_DIR$/lesson6/comments/public/index.php" />
+        <option value="$PROJECT_DIR$/lesson6/comments/templates/comment_temp.php" />
+        <option value="$PROJECT_DIR$/lesson6/comments/public/comment.php" />
       </list>
     </option>
   </component>
@@ -181,6 +477,9 @@
         </path_mappings>
       </server>
       <server host="img.loc" id="dff91a05-c392-4141-a75c-b1514947cb2c" name="img.loc" />
+      <server host="calc.com" id="ac6cb4d6-0430-4a22-adf1-06fa5cdf4a98" name="calc.com" />
+      <server host="prod.com" id="6baaec83-944c-447a-8826-763cf4736eaa" name="prod.com" />
+      <server host="comments.com" id="b5c381a2-c328-406b-890c-b55147ca62a7" name="comments.com" />
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="D:\localhost\OSPanel\domains\php.hw.local\lesson4\public" selected_validation_type="LOCAL" web_path_to_validation_script="http://img.loc/" />
@@ -189,7 +488,7 @@
       <path value="D:/php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="4" />
     <option name="width" value="1346" />
     <option name="height" value="684" />
@@ -210,53 +509,34 @@
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="max" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="min" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +550,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GB_project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -282,17 +562,22 @@
     <property name="node.js.selected.package.stylelint" value="C:\Users\nik\AppData\Roaming\npm\node_modules\stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\comments\config" />
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\comments\public\js" />
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\comments\public\css" />
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\comments\public" />
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\comments\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\project\config" />
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson6\project\engine" />
+      <recent name="D:\localhost\OSPanel\domains\php.hw.local\examples\config" />
       <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson4\public\img\min" />
       <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson4\public\img\max" />
-      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson4\public" />
-      <recent name="D:\localhost\OSPanel\domains\php.hw.local\lesson1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\localhost\OSPanel\domains\php.hw.local" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,60 +630,68 @@
       <workItem from="1531060294148" duration="1271000" />
       <workItem from="1531157625525" duration="8542000" />
       <workItem from="1531238116243" duration="15981000" />
-      <workItem from="1531325589597" duration="14420000" />
+      <workItem from="1531325589597" duration="14928000" />
+      <workItem from="1531414598366" duration="3227000" />
+      <workItem from="1531470056573" duration="1197000" />
+      <workItem from="1531555297667" duration="1319000" />
+      <workItem from="1531556663602" duration="96000" />
+      <workItem from="1531556789471" duration="39482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173975000" />
+    <option name="totallyTimeSpent" value="219804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="7" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" weight="0.32820514" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.32820514" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16752137" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32820514" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.1691843" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32991454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.17598188" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.18051359" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1570997" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
       <window_info id="Structure" order="1" sideWeight="0.5009311" side_tool="true" weight="0.28395063" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.34871796" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32820514" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32820514" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.1691843" />
-      <window_info id="Structure" order="1" sideWeight="0.5009311" side_tool="true" weight="0.28395063" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="9" weight="0.32820514" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.029795159" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.18051359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.17598188" />
+      <window_info id="Structure" order="1" sideWeight="0.5009311" side_tool="true" weight="0.28395063" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.32820514" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.34871796" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
+      <window_info anchor="right" id="Database" order="3" weight="0.006042296" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32820514" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,287 +706,277 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson1/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/rock.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/config/engine/gallery.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/index.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/18.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/17.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/15.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/img/product-card-img/regular/13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/templates/calc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/engine/count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/star.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/hw1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/star.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/rock.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/engine/route.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/hw1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/star.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/rock.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/engine/render.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/hw1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/star.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/rock.php">
+    <entry file="file://$PROJECT_DIR$/examples/config/engine/db.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/hw1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/star.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/rock.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="709" column="25" selection-start-line="709" selection-start-column="19" selection-end-line="709" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/hw1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/star.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/redirect.php">
+    <entry file="file://$PROJECT_DIR$/examples/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <caret line="3" column="8" selection-start-line="1" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/rock.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/test.html" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2f451795-92e8-4cdd-a35a-7f2553466645/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/87cb0ec7-a1ac-4339-96f1-123349e93760/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/index.php">
+    <entry file="file://$PROJECT_DIR$/examples/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/hw2.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/config/db_access.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/max/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/max/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/max/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/max/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/min/1.min.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/min/2.min.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/min/3.min.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/img/min/4.min.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/image_min" />
-    <entry file="file://$PROJECT_DIR$/lesson4/engine/sql_connection.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/config/config.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/config/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/js/Basket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-1599" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/engine/funcImgResize.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/js/Product_class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="-3099" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/js/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="e#3#559#0#PHP" expanded="true" />
+            <element signature="e#127#2654#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/photo.php">
+    <entry file="file://$PROJECT_DIR$/examples/config/engine/files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="320">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/public/index.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/css/product_card.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="180">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/hw3.php">
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/css/single_page.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/config/engine/gallery.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/public/gallery.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="91" column="40" lean-forward="true" selection-start-line="87" selection-end-line="114" selection-end-column="1" />
+        <state relative-caret-position="-140">
+          <caret line="2" column="29" selection-start-line="1" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/image">
+    <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/products">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/templates/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/public/photo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/templates/product_card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/templates/single_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/project/engine/getProductData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/css/feedback.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="193" column="22" lean-forward="true" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/css/comment.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/js/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson4/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson4/engine/render.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="-253">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/config/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/js/feedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/config/db_access.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/templates/feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="155" column="33" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/templates/comment_temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/comments/public/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
