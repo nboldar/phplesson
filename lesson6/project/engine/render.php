@@ -5,7 +5,19 @@
  * Date: 14.07.2018
  * Time: 12:00
  */
-function render($template, array $params = []){
+session_start();
+function render($template, array $params = [], $useLayout = true){
+    $content = renderTemplate($template, $params);
+    if($useLayout){
+        $content = renderTemplate('layouts/main', ['content' => $content]);
+    }
+    return $content;
+}
+
+
+function renderTemplate($template, array $params = []){
     extract($params);
+    ob_start();
     include TEMPLATES_DIR . $template . ".php" ;
+    return ob_get_clean();
 }

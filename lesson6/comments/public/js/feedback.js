@@ -49,7 +49,7 @@ const validationForm = {
         });
 
         buttonSubmit.on('click', function (event) {
-             event.preventDefault();
+             // event.preventDefault();
             self.errorDialog.length = 0;
             if (!self.namePattern.test(elemName.val())) {
                 self.errorFunc(elemName,self.nameErrorMassege);
@@ -90,7 +90,7 @@ const validationForm = {
             } else {
                 self.messageObj.user_name=$(`#${self.nameId}`).val();
                 self.messageObj.user_email=$(`#${self.emailId}`).val();
-                self.messageObj.text=$(`.${self.messageId}`).val();
+                self.messageObj.comment=$(`.${self.messageId}`).val();
                 self.postfeedback(self.messageObj);
                 self.reset();
                 self.errorDialog.push('Ваше сообщение отправлено!');
@@ -125,14 +125,13 @@ const validationForm = {
         });
     },
     postfeedback(obj){
-        console.log('good');
-        $.ajax({
+        // console.log('good');
+        jQuery.ajax({
             type: "POST",
             url: "./index.php",
             data: obj,
-
-            success: function () {
-                console.log('ok');
+            success: function (data) {
+                console.log(data);
             },
             error: function (error) {
                 console.log('Ошибка получения данных', error);

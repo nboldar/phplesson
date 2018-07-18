@@ -16,16 +16,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 function validation(array $dataArray)
 {
     foreach ($dataArray as $key => $val) {
-        if ($key == "user_name" and !preg_match("/[a-zA-Z]/", $val)) {
-
+        if (!$key == "user_name") {
             return false;
         }
         if ($key == "user_email" and !preg_match("/[\da-z@\._-]+/", $val)) {
-
             return false;
         }
         if ($key == "comment" and $val == "") {
-
             return false;
         }
     }

@@ -133,7 +133,7 @@
 </div>
 <hr>
 <div class="main-wrapper">
-    <form action="index.php" method="post"  class="feedback">
+    <form action="#" method="#"  class="feedback">
         <input class="feedback-input" name="user_name" id="name" type="text" placeholder="Your name">
         <input class="feedback-input" id="birth" type="text" placeholder="Date of birth">
         <input class="feedback-input" id="phone" type="text" placeholder="Телефон в формате 70000000000">
@@ -300,7 +300,7 @@
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/submenu.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
-<!--<script type="text/javascript" src="js/feedback.js"></script>-->
+<script type="text/javascript" src="js/feedback.js"></script>
 <script type="text/javascript" src="js/Product_class.js"></script>
  <script type="text/javascript" src="js/all_comments.js"></script>
 <script type="text/javascript" src="js/comment.js"></script>

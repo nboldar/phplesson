@@ -1,0 +1,1 @@
+<span><?= $user['name'] ?>(login:<?= $user['login'] ?>), привет!</span>
