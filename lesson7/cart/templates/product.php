@@ -50,7 +50,7 @@ session_start();
                     </button>
                 </div>
             </div>
-            <button class="main-header-account-btn" name="My Account">My Account</button>
+            <button class="main-header-account-btn" name="My Account"><a href="/sighIn.php">My Account</a></button>
         </div>
     </div>
 </header>

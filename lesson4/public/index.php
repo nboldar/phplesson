@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "превышен размер загружаемого файла";
     }else{
         uploadImg($img);
-        echo "<script>window.location.href='index.php'</script>";
+        echo "<script>window.location.href=product.phpp'</script>";
         var_dump($_FILES['file']['name']);
     }
 }

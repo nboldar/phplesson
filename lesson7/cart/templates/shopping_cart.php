@@ -41,7 +41,7 @@
                     <button type="button" class="go-to-cart-btn" onclick="location.href='shoping_cart.html'">go to cart</button>
                 </div>
             </div>
-            <button class="main-header-account-btn" name="My Account">My Account</button>
+            <button class="main-header-account-btn" name="My Account"><a href="/sighIn.php">My Account</a></button>
         </div>
     </div>
 </header>

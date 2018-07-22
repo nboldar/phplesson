@@ -17,7 +17,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 $listId = implode(",", array_keys($_SESSION['product']));
 $productsInCart = $_SESSION['product'];
-$products = queryAll("SELECT * FROM products WHERE id in({$listId})");
-$products = addQuantity($products, $productsInCart);
-echo renderCart('product_in_cart_card', ['products' => $products]);
+if(count($productsInCart)>0){
+    $products = queryAll("SELECT * FROM products WHERE id in({$listId})");
+    $products = addQuantity($products, $productsInCart);
+    echo renderCart('product_in_cart_card', ['products' => $products]);
+}else{
+//    $products = [0=>0];
+//    echo renderCart('product_in_cart_card', ['products' => $products]);
+echo    renderTemplate("shopping_cart");
+}
+
+
+
 
