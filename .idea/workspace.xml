@@ -2,147 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4799e4dd-2be1-49f2-ac70-52cd81cd8e46" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7/cart/templates/sighIn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/config/db_access.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/engine/addQuantity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/engine/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/engine/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/engine/getProductData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/engine/render.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/engine/route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/pages/admin/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/pages/product/cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/pages/product/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/pages/product/order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/arrivals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/product_card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/shoping_cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/single_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/css/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/fonts/lato-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/fonts/lato-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/fonts/lato-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/fonts/lato-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/Rectangle 16 copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/Rectangle 5 copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/accesories_cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/background-footer-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/background-img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/background-img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/brand-logo/brand_logo_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/brand-logo/brand_logo_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/brand-logo/brand_logo_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/brand-logo/brand_logo_img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/BRAND.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/Live_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/add_to_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/add_to_cart_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/add_to_cart_copy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/cart_active_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/cart_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/fav.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/forma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/forma_croun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/forma_track.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/mail_ru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/main_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/red_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/sprite-socail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/icon/vk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/index-main-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/layer_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/layer_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/layer_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/layer_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/1.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/10.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/11.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/12.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/13.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/14.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/15.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/16.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/17.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/18.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/2.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/3.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/4.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/5.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/6.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/7.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/8.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/mini/9.min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/product-card-img/regular/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/shopping-cart-empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/single_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/slider_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/slider_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/slider_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/slider_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/img/slider/slider_img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/js/Basket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/js/Product_class.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/js/submenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/vendor/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/vendor/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/vendor/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/public/vendor/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/product_card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/product_in_cart_card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/shopping_cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/templates/sighIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f451795-92e8-4cdd-a35a-7f2553466645.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f451795-92e8-4cdd-a35a-7f2553466645.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php2.lesson1/lesson1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/cart/public/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/cart/public/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/cart/templates/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/cart/templates/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/cart/templates/shopping_cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/cart/templates/shopping_cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/pages/product/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/pages/product/cart.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -201,71 +63,52 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_in_cart_card.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/templates/product_in_cart_card.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" column="17" selection-start-line="1" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson8/pages/product/order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/templates/order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/pages/admin/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="18" selection-start-line="3" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/templates/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/pages/product/cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orders" pinned="false" current-in-tab="false">
-        <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/orders">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5727878">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="orders" pinned="false" current-in-tab="false">
+            <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/orders">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lesson1.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/php2.lesson1/lesson1.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="461">
+                  <caret line="147" column="11" lean-forward="true" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="s.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php2.spoiler1/s.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="140">
+                  <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/php2.spoiler1/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="140">
+                  <caret line="40" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -289,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson6/comments/public/js/main.js" />
-        <option value="$PROJECT_DIR$/lesson6/comments/public/my.php" />
         <option value="$PROJECT_DIR$/lesson6/comments/public/index.php" />
         <option value="$PROJECT_DIR$/lesson6/comments/templates/comment_temp.php" />
         <option value="$PROJECT_DIR$/examples/config/engine/files.php" />
@@ -332,7 +173,6 @@
         <option value="$PROJECT_DIR$/lesson8/templates/product.php" />
         <option value="$PROJECT_DIR$/lesson8/pages/product/index.php" />
         <option value="$PROJECT_DIR$/lesson8/templates/shopping_cart.php" />
-        <option value="$PROJECT_DIR$/lesson8/pages/product/cart.php" />
         <option value="$PROJECT_DIR$/lesson8/templates/product_in_cart_card.php" />
         <option value="$PROJECT_DIR$/lesson8/engine/db.php" />
         <option value="$PROJECT_DIR$/lesson8/engine/getProductData.php" />
@@ -340,6 +180,9 @@
         <option value="$PROJECT_DIR$/lesson8/pages/admin/admin.php" />
         <option value="$PROJECT_DIR$/lesson8/templates/order.php" />
         <option value="$PROJECT_DIR$/lesson8/pages/product/order.php" />
+        <option value="$PROJECT_DIR$/lesson8/pages/product/cart.php" />
+        <option value="$PROJECT_DIR$/php2.spoiler1/s.html" />
+        <option value="$PROJECT_DIR$/php2.lesson1/lesson1.php" />
       </list>
     </option>
   </component>
@@ -370,6 +213,7 @@
       <server host="user.loc" id="65368715-258c-4395-88d4-381adf4391f2" name="user.loc" />
       <server host="127.0.0.1" id="c807c5c1-b34d-410f-8233-c9391fc96de1" name="mi.loc" />
       <server host="mi.loc" id="e5f9ca56-6b1a-4cfa-ad0a-e66ff166d07d" name="mi.loc (1)" />
+      <server host="PhpStorm 2018.1.4" id="3dbc4611-11ad-401d-b41c-d485c71f0833" name="PhpStorm 2018.1.4" port="63342" />
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="D:\localhost\OSPanel\domains\php.hw.local\lesson8\public" selected_validation_type="LOCAL" web_path_to_validation_script="http://mi.loc/" />
@@ -382,11 +226,9 @@
       <path value="$PROJECT_DIR$/../../modules/php/PHP-7.2" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="4" />
-    <option name="width" value="1344" />
-    <option name="height" value="684" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1346" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -405,39 +247,12 @@
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="php2.lesson1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php.hw.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php.hw.local" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="php2.spoiler1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,7 +265,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP-7.2" />
+    <property name="last_opened_file_path" value="D:/BB&amp;NG" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -463,7 +278,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -552,32 +367,39 @@
       <workItem from="1532181055512" duration="2234000" />
       <workItem from="1532184166646" duration="13453000" />
       <workItem from="1532239176137" duration="27970000" />
-      <workItem from="1532275359774" duration="1366000" />
+      <workItem from="1532275359774" duration="2083000" />
+      <workItem from="1532366635795" duration="1242000" />
+      <workItem from="1532371066547" duration="1434000" />
+      <workItem from="1532541294338" duration="180000" />
+      <workItem from="1532541548492" duration="28000" />
+      <workItem from="1536156768054" duration="798000" />
+      <workItem from="1536176760752" duration="1445000" />
+      <workItem from="1536310498139" duration="6570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321777000" />
+    <option name="totallyTimeSpent" value="334191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.18655589" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.32820514" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32930514" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info id="Structure" order="1" sideWeight="0.5009311" side_tool="true" weight="0.28395063" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3025641" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.20619336" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32930514" />
+      <window_info id="Structure" order="1" sideWeight="0.5009311" side_tool="true" weight="0.28395063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.32820514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.34871796" />
@@ -599,22 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example3/original/data/test.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example3/original/engine/auth.lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example3/original/engine/basket.lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example3/original/engine/cabinet.lib.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example3/original/engine/catalogue.lib.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -810,34 +616,27 @@
     <entry file="file://$PROJECT_DIR$/lesson4/public/photo.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/templates/product_in_cart_card.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="17" selection-start-line="1" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson7/cart/public/cart.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/templates/admin.php">
+    <entry file="file://$PROJECT_DIR$/../../modules/system/html/openserver/phpmyadmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="-3820">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson8/pages/product/cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="20">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/lesson8/templates/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -850,15 +649,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson8/templates/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson8/pages/product/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="324">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson8/templates/product_in_cart_card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2f451795-92e8-4cdd-a35a-7f2553466645/schema/lesson5/table/orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php2.spoiler1/s.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php2.spoiler1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php2.lesson1/lesson1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="147" column="11" lean-forward="true" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
         </state>
       </provider>
     </entry>
