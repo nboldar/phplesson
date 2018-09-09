@@ -3,7 +3,7 @@ class A{
     public static $message = "A";
 
     public static function display(){
-        echo static::$message;
+        echo 'парам',static::$message;
     }
 }
 
