@@ -10,8 +10,8 @@ spl_autoload_register([new Autoloader(), 'loadClass']);
 $product = new Product();
 var_dump($product);
 
-//
-//function log(ILoggable $object){
-//    $object->log();
-//}
+
+function addlog(ILoggable $object){
+    $object->addlog();
+}
 

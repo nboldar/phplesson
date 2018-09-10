@@ -19,7 +19,8 @@ class Payment extends Model
     {
         return 'products';
     }
-    public function changeStatus(string $newStatus){
+    public function changeStatus(string $newStatus)
+    {
         $this->status=$newStatus;
     }
 }

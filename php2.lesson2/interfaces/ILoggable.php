@@ -3,5 +3,5 @@
 
 interface ILoggable
 {
-    public function log();
+    public function addlog();
 }
