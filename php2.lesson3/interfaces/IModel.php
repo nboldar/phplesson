@@ -2,7 +2,7 @@
 namespace app\interfaces;
 interface IModel
 {
-    public function getOne(int $id): \app\models\Model;
+    public function getOne(int $id);
 
     public function getAll(): array ;
 

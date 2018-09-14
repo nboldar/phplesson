@@ -1,7 +1,10 @@
 <?php
 namespace app\models;
+
+use app\interfaces\IModel;
 use app\services\Db;
-abstract class Model implements \app\interfaces\IModel
+
+abstract class Model implements IModel
 {
     protected $db;
 
@@ -10,14 +13,14 @@ abstract class Model implements \app\interfaces\IModel
      */
     public function  __construct()
     {
-        $this->db = new Db();
+        $this->db = Db::getInstance();
     }
 
-    public function getOne(int $id): Model
+    public function getOne(int $id): \app\models\Model
     {
         $tableName = $this->getTableName();
-        $sql = "SELECT * FROM {$tableName} WHERE id = {$id}";
-        return $this->db->queryOne($sql);
+        $sql = "SELECT * FROM {$tableName} WHERE id = :id";
+        return $this->db->queryOne($sql, [':id' => $id]);
     }
 
     public function getAll(): array
