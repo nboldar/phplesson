@@ -1,6 +1,7 @@
 <?php
 
 namespace app\services;
+
 use app\traits\TSingleton;
 
 class Db
@@ -14,7 +15,7 @@ class Db
         if (is_null($this->conn)) {
             $this->conn = new \PDO($this->prepareDsnString(), LOGIN, PASSWORD);
         }
-        $this->conn->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_OBJ);
+        $this->conn->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_ASSOC);
         return $this->conn;
     }
 
@@ -32,10 +33,32 @@ class Db
         return $pdoStatement;
     }
 
+    /**
+     * @param $sql
+     * @param array $params
+     * @return mixed
+     */
     public function queryOne($sql, $params = [])
     {
-
         return $this->queryAll($sql, $params)[0];
+    }
+
+    /**
+     * @param $sql
+     * @param array $params
+     * @param $class
+     * @return array
+     */
+    public function queryAllObjects($sql, $params = [], $class)
+    {
+        $smtp = $this->query($sql, $params);
+        $smtp->setFetchMode(\PDO::FETCH_CLASS | \PDO::FETCH_PROPS_LATE, $class);
+        return $smtp->fetchAll();
+    }
+
+    public function queryObject($sql, $params = [], $class)
+    {
+        return $this->queryAllObjects($sql, $params, $class)[0];
     }
 
     public function queryAll($sql, $params = [])
@@ -47,6 +70,10 @@ class Db
     {
         $this->query($sql, $params);
         return true;
+    }
+    public function lastInsertId()
+    {
+        return $this->getConnection()->lastInsertId();
     }
 
 }
