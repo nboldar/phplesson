@@ -12,6 +12,14 @@ class ComposerStaticInit52c37e9821cad1de3cecc4e888b67ea1
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\traits\\' => 11,
+            'app\\services\\' => 13,
+            'app\\models\\' => 11,
+            'app\\interfaces\\' => 15,
+            'app\\controllers\\' => 16,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -24,6 +32,26 @@ class ComposerStaticInit52c37e9821cad1de3cecc4e888b67ea1
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\traits\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/traits',
+        ),
+        'app\\services\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/services',
+        ),
+        'app\\models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/models',
+        ),
+        'app\\interfaces\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/interfaces',
+        ),
+        'app\\controllers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/controllers',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -39,29 +67,6 @@ class ComposerStaticInit52c37e9821cad1de3cecc4e888b67ea1
     );
 
     public static $prefixesPsr0 = array (
-        'a' => 
-        array (
-            'app\\traits\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/traits',
-            ),
-            'app\\services\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/services',
-            ),
-            'app\\models\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/models',
-            ),
-            'app\\interfaces\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/interfaces',
-            ),
-            'app\\controllers\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/controllers',
-            ),
-        ),
         'T' => 
         array (
             'Twig_' => 
