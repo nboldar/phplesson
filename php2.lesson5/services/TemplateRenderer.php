@@ -1,5 +1,7 @@
 <?php
+
 namespace app\services;
+
 use app\interfaces\IRenderer;
 
 class TemplateRenderer implements IRenderer
