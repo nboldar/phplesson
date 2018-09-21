@@ -5,7 +5,7 @@
  * Date: 14.09.2018
  * Time: 18:30
  */
-define('ROOT_DIR',$_SERVER['DOCUMENT_ROOT'].'/../');
+define('ROOT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/../');
 define('DS', DIRECTORY_SEPARATOR);
 define('HOST', '127.0.0.1');
 define('LOGIN', 'root');
