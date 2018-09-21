@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: text/html; charset=utf8");
-include __DIR__ .  "/../config/main.php";
+include __DIR__ .  "/../config/main.html.twig";
 include ENGINE_DIR . "render.php";
 require_once ENGINE_DIR .  "db.php";
 require_once ENGINE_DIR .  "route.php";

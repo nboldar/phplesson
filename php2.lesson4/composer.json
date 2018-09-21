@@ -1,0 +1,14 @@
+{
+    "name": "nboldar/php2.lesson5",
+    "type": "project",
+    "require": {
+        "twig/twig": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nboldar",
+            "email": "nboldar1@gmail.com"
+        }
+    ]
+}

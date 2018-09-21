@@ -17,7 +17,7 @@ abstract class Model implements \app\interfaces\IModel
         $this->db = Db::getInstance();
     }
 
-    public static function getOne(int $id): object
+    public static function getOne(int $id)
     {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM {$tableName} WHERE id = :id";
