@@ -12,8 +12,7 @@ $twig = new Twig_Environment($loader, array(
     'cache' => false,
 ));
 
-
-spl_autoload_register([new Autoloader(), 'loadClass']);
+//spl_autoload_register([new Autoloader(), 'loadClass']);
 
 $controllerName = $_GET['c'] ?: DEFAULT_CONTROLLER;
 $action = $_GET['action'];

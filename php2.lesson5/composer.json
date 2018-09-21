@@ -5,10 +5,21 @@
         "twig/twig": "^2.0"
     },
     "license": "MIT",
+    "autoload":{
+        "psr-0":{
+            "app\\services\\":"services",
+            "app\\models\\":"models",
+            "app\\controllers\\":"controllers",
+            "app\\interfaces\\":"interfaces",
+            "app\\traits\\":"traits"
+
+        }
+    },
     "authors": [
         {
             "name": "nboldar",
             "email": "nboldar1@gmail.com"
         }
     ]
+
 }

@@ -6,5 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'app\\traits\\' => array($baseDir . '/traits'),
+    'app\\services\\' => array($baseDir . '/services'),
+    'app\\models\\' => array($baseDir . '/models'),
+    'app\\interfaces\\' => array($baseDir . '/interfaces'),
+    'app\\controllers\\' => array($baseDir . '/controllers'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
 );
