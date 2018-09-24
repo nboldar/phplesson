@@ -4,5 +4,5 @@ namespace app\interfaces;
 
 interface IRenderer
 {
-    public function render($template, $pparams = []);
+    public function render($template, $params = []);
 }

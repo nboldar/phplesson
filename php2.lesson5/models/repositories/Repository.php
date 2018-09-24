@@ -1,15 +1,23 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: nik
+ * Date: 24.09.2018
+ * Time: 20:50
+ */
 
-namespace app\models;
+namespace app\models\repositories;
 
+
+use app\models\entities\DataEntity;
 use app\services\Db;
 
-
-abstract class Model implements \app\interfaces\IModel
+abstract class Repository
 {
     protected $db;
 
     /**
+     * Repository constructor.
      * @param $db
      */
     public function __construct()
@@ -17,28 +25,28 @@ abstract class Model implements \app\interfaces\IModel
         $this->db = Db::getInstance();
     }
 
-    public static function getOne(int $id)
+    public function getOne(int $id)
     {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM {$tableName} WHERE id = :id";
-        return Db::getInstance()->queryObject($sql, [':id' => $id], get_called_class());
+        return $this->db->queryObject($sql, [':id' => $id], $this->getEntityClass());
     }
 
-    public static function getAll(): array
+    public function getAll(): array
     {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM {$tableName}";
-        return Db::getInstance()->queryAllObjects($sql, $params = [], get_called_class());
+        return $this->db->queryAllObjects($sql, $params = [], $this->getEntityClass());
     }
 
-    public function deleteItem()
+    public function deleteItem(DataEntity $entity)
     {
         $tableName = $this->getTableName();
         $sql = "delete from {$tableName} where id=:id";
-        return $this->db->execute($sql, [':id' => $this->id]);
+        return $this->db->execute($sql, [':id' => $entity->id]);
     }
 
-    private function insert()
+    private function insert(DataEntity $entity)
     {
         $tableName = $this->getTableName();
         $params = [];
@@ -46,8 +54,8 @@ abstract class Model implements \app\interfaces\IModel
         $columns = $this->getTableColumns();
         $columnsString = implode(', ', $columns);
         foreach ($columns as $value) {
-            if (isset($this->{$value})) {
-                $settedValue = $this->{$value};
+            if (isset($entity->{$value})) {
+                $settedValue = $entity->{$value};
             } else {
                 $settedValue = null;
             }
@@ -58,7 +66,7 @@ abstract class Model implements \app\interfaces\IModel
 
         $sql = "insert into {$tableName} ({$columnsString}) values ({$placeholderString})";
         $this->db->execute($sql, $params);
-        $this->id = $this->db->lastInsertId();
+        $entity->id = $this->db->lastInsertId();
     }
 
     private function getTableColumns(): array
@@ -73,27 +81,32 @@ abstract class Model implements \app\interfaces\IModel
         return $newArr;
     }
 
-    private function update()
+    private function update(DataEntity $entity)
     {
         $params = [];
         $sqlSetParams = [];
         $tableName = $this->getTableName();
-        $stateObj = Product::getOne($this->id);
+        $stateObj = $this->getOne($entity->id);
         foreach ($this as $key => $val) {
             if ($val !== $stateObj->{$key}) {
                 $params[":{$key}"] = $val;
                 array_push($sqlSetParams, "{$key}=:{$key}");
             }
         }
-        $params[":id"] = $this->id;
+        $params[":id"] = $entity->id;
         $sqlSetParamsString = implode(', ', $sqlSetParams);
         $sql = "update {$tableName} set {$sqlSetParamsString} where id=:id";
         var_dump($sql);
         $this->db->execute($sql, $params);
     }
 
-    public function save()
+    public function save(DataEntity $entity)
     {
-        isset($this->id) ? $this->update() : $this->insert();
+        empty($entity->id) ? $this->update() : $this->insert();
     }
+
+
+    abstract public function getTableName(): string;
+
+    abstract public function getEntityClass(): string;
 }

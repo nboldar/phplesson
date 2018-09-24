@@ -17,7 +17,7 @@
 <header class="main-header">
     <div class="main-header-conteiner">
         <a href="/" class="main-header-logo"><img src="img/icon/logo.png" alt="хуй"
-                                                  title="хуй"           class="main-header-logo"></a>
+                                                  title="хуй" class="main-header-logo"></a>
         <div class="search">
             <form class="search-form">
                 <button class="search-form-browse"><span class="browse-word">Browse</span></button>
@@ -28,7 +28,7 @@
         </div>
         <div class="account-btn-conteiner">
             <div class="cart-img-ref">
-                <a href="product/cart">
+                <a href="basket/">
                     <i class="fa fa-shopping-cart fa-2x cart-img" aria-hidden="true"></i>
                 </a>
                 <div id="cart-item-amount"></div>

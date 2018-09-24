@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/../config/main.html.twig";
+include $_SERVER['DOCUMENT_ROOT'] . "/../config/main.twig";
 include ROOT_DIR . "services/Autoloader.php";
 
 spl_autoload_register([new \app\services\Autoloader(), 'loadClass']);

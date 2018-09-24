@@ -1,8 +1,8 @@
 <?php
 
-namespace app\models;
+namespace app\models\entities;
 
-class Product extends Model
+class Product extends DataEntity
 {
     public $id;
     public $title;
@@ -14,7 +14,7 @@ class Product extends Model
     public $brend;
     public $gender;
 
-    public function __construct( $id = null,
+    public function __construct($id = null,
                                 string $title = null,
                                 string $img_url = null,
                                 float $price = null,
@@ -24,7 +24,7 @@ class Product extends Model
                                 string $brend = null,
                                 string $gender = null)
     {
-        parent::__construct();
+//        parent::__construct();
         $this->id = $id;
         $this->title = $title;
         $this->img_url = $img_url;
@@ -34,10 +34,5 @@ class Product extends Model
         $this->color = $color;
         $this->brend = $brend;
         $this->gender = $gender;
-    }
-
-    public static function getTableName(): string
-    {
-        return 'products';
     }
 }

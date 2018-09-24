@@ -7,6 +7,10 @@
       <path value="$PROJECT_DIR$/../../modules/php/PHP-7.1/PEAR/pear" />
       <path value="$PROJECT_DIR$/../../modules/php/PHP-7.0" />
       <path value="$PROJECT_DIR$/../../modules/php/PHP-7.2" />
+      <path value="$PROJECT_DIR$/php2.lesson5/vendor/composer" />
+      <path value="$PROJECT_DIR$/php2.lesson5/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/php2.lesson5/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/php2.lesson5/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
